@@ -1,27 +1,30 @@
 import React from "react";
-import {data} from "../API/plantData.json"
+import { plants } from "../data.json"
+import Plant from "../components/Plant"
 // using table formatting
 export const PlantList = () => {
-  const plantData = data
-  console.log(plantData)
-    
+  const plantData = plants
+  console.log(plantData.plants)
+  
   return (
     <div class="list">
       <h1>Plants</h1>
       <ul>
         {plantData.length ? (
-          plantData.map(({ id, name, level, water, sunlight, fertilizer, picture}) => {
+          plantData.map((plantData) => {
             return (
-            <li key={id}>
-                <img src={picture} alt={`picture of ${name}`}></img>
-                  {/* if isowned = true show empty favorite button? */}
-                <p>{ name }</p>
-                <p>{ level }</p>
-                <p>{ water }</p>
-                <p>{ sunlight }</p>
-                <p>{fertilizer}</p>
-            </li>
-          );
+              <ul>
+                <Plant
+                  key={plantData.id}
+                  name={plantData.name}
+                  level={plantData.level}
+                  water={plantData.water}
+                  sunlight={plantData.sunlight}
+                  fertilizer={plantData.fertilizer}
+                  picture={plantData.picture}
+                />
+              </ul>
+            );
         })
         ) : (
           <p>No Results to Display</p>
