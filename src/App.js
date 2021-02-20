@@ -1,11 +1,10 @@
 import './App.css';
+import PlantList from "../src/components/PlantList"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        React app
-      </header>
+      <PlantList />
     </div>
   );
 }
