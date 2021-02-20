@@ -1,0 +1,40 @@
+{
+    "plants": [
+        {
+            "name": "Aluminum Plant",
+            "level": "Easy",
+            "water": "once every week",
+            "sunlight": "bright light",
+            "fertilizer": "every two weeks",
+            "picture": "https://www.guide-to-houseplants.com/images/aluminum-plant.jpg",
+            "owned": false
+        },
+        {
+            "name": "Baby Rubber Plant",
+            "level": "Easy",
+            "water": "once every week",
+            "sunlight": "bright, indirect light",
+            "fertilizer": "every two weeks",
+            "picture": "https://www.guide-to-houseplants.com/images/peperomia-obtusifolia-window.jpg",
+            "owned": false
+        },
+        {
+            "name": "Caladium Plant",
+            "level": "Medium",
+            "water": "once every week",
+            "sunlight": "bright, indirect light",
+            "fertilizer": "every two weeks",
+            "picture": "https://www.guide-to-houseplants.com/images/caladium-leaves.jpg",
+            "owned": false
+        },
+        {
+            "name": "Dragon Tree",
+            "level": "Medium",
+            "water": "once every week",
+            "sunlight": "bright, indirect light",
+            "fertilizer": "every two weeks",
+            "picture": "https://www.guide-to-houseplants.com/images/dragon-tree.jpg",
+            "owned": false
+        }
+    ]
+}

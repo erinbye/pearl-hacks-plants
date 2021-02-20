@@ -3,16 +3,6 @@ import sun from "../images/sun.png"
 import fertilizer from "../images/fertilizer.png"
 
 const Plant = ({plant}) => {
-    plant = {
-        name: "Aluminum Plant",
-        level: "Easy",
-        water: "once every week",
-        sunlight: "bright light",
-        fertilizer: "every two weeks",
-        picture: "https://www.guide-to-houseplants.com/images/aluminum-plant-2.jpg",
-        owned: false
-
-    }
     return (
         <div>
             <h1>{plant.name}</h1>
