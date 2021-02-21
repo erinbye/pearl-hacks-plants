@@ -1,5 +1,4 @@
 import React from "react";
-import { plants } from "../data.json"
 
 export const PlantList = ({plantData, page}) => {
   

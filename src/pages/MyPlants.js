@@ -1,8 +1,11 @@
 import PlantList from "../components/PlantList"
-
-const MyPlants = ({plants}) => {
+import SearchBar from "../components/SearchBar"
+const MyPlants = ({plants, handleSearch}) => {
     return (
-        <PlantList plantData={plants} page="My Plants"/>
+    <div>
+        <SearchBar handleSearch={handleSearch}/>
+        <PlantList plantData={plants} page="My Plants" />
+    </div>
     )
 }
 
