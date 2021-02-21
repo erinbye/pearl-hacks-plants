@@ -28,7 +28,7 @@
           "sunlight": "bright, indirect light",
           "fertilizer": "every two weeks",
           "picture": "https://www.guide-to-houseplants.com/images/caladium-leaves.jpg",
-          "owned": false
+          "owned": true
         },
         {
           "id": 4,
