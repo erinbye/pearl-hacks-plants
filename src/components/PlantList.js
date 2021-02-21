@@ -1,6 +1,5 @@
 import React from "react";
 import { plants } from "../data.json"
-import Plant from "../components/Plant"
 // using table formatting
 export const PlantList = () => {
   const plantData = plants
@@ -16,7 +15,9 @@ export const PlantList = () => {
             return (
               <ul>
                 <li key={id}>
+                  <a href={`/plant/${id}`}>
                   <img src={picture}></img>
+                  </a>
                   <h3>{name}</h3>
                 </li>
               </ul>
