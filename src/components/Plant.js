@@ -2,7 +2,14 @@ import water from "../images/water-drop.jpg"
 import sun from "../images/sun.png"
 import fertilizer from "../images/fertilizer.png"
 
-const Plant = ({plant}) => {
+const Plant = ({plantId, plants, setPage}) => {
+    const plant = plants.filter((plant) => plant.id === plantId)[0];
+
+    const onAdd = () => {
+        plant.owned = !plant.owned;
+        setPage("My Plants");
+    }
+
     return (
         <div>
             <h1>{plant.name}</h1>
@@ -13,7 +20,8 @@ const Plant = ({plant}) => {
             <h3><img src={fertilizer} alt="fertilizer" width="50" height="50"/>: {plant.fertilizer}</h3>
             <img src={plant.picture}/>
             <div/>
-            <button>Add {plant.name} to My Plants</button>
+            <button onClick={onAdd}>{plant.owned ? "Remove" : "Add"} {plant.name} {plant.owned ? "from" : "to"} My Plants</button>
+            
         </div>
     )
 }

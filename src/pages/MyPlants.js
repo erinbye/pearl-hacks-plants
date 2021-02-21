@@ -1,11 +1,12 @@
 import PlantList from "../components/PlantList"
 import SearchBar from "../components/SearchBar"
-const MyPlants = ({plants, handleSearch}) => {
+
+const MyPlants = ({plants, setPlantId, setPage, handleSearch}) => {
     return (
-    <div>
+        <div>
         <SearchBar handleSearch={handleSearch}/>
-        <PlantList plantData={plants} page="My Plants" />
-    </div>
+        <PlantList plantData={plants} page="My Plants" setPlantId={setPlantId} setPage={setPage}/>
+        </div>
     )
 }
 
