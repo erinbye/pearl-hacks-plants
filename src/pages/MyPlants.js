@@ -1,8 +1,8 @@
 import PlantList from "../components/PlantList"
 
-const MyPlants = ({plants}) => {
+const MyPlants = ({plants, setPlantId, setPage}) => {
     return (
-        <PlantList plantData={plants} page="My Plants"/>
+        <PlantList plantData={plants} page="My Plants" setPlantId={setPlantId} setPage={setPage}/>
     )
 }
 
