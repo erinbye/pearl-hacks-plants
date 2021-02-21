@@ -58,7 +58,7 @@ function App() {
     <div className="App">
       <NavBar setPage={setPage}></NavBar>
       {page === "Plant" ? <Plant plantId={plantId} plants={plants} setPage={setPage}/> :
-        page === "Home" ? <Main/> : 
+        page === "Home" ? <Main setPage={setPage}/> : 
         page === "My Plants" ? <MyPlants plants={plants} setPlantId={setPlantId} setPage={setPage}/> :
         <Explore plants={plants} setPlantId={setPlantId} setPage={setPage}/>
       }
