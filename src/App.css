@@ -2,26 +2,24 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.figure-img {
+  margin-right: 1rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+a {
+  font-size: 1.25rem;
+}
+
+nav.navbar {
+  background-color: #8da58d;
+  padding: 0;
+  width: 99%;
+  border-radius: 0px 50px 50px 0px;
+}
+nav.whiteSpace {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
