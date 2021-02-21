@@ -11,10 +11,10 @@ function App() {
   const [page, setPage] = useState("Home");
 
   return (
-    <div>
+    <div className="App">
       <NavBar setPage={setPage}></NavBar>
       {page === "Home" ? <Main/> : 
-        page === "My Plants" ? <MyPlants/> :
+        page === "My Plants" ? <MyPlants plants={plants}/> :
         <Explore plants={plants}/>
       }
     </div>

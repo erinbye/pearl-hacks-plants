@@ -1,6 +1,8 @@
-const MyPlants = () => {
+import PlantList from "../components/PlantList"
+
+const MyPlants = ({plants}) => {
     return (
-        <div>MyPlants</div>
+        <PlantList plantData={plants} page="My Plants"/>
     )
 }
 

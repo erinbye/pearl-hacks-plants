@@ -1,8 +1,8 @@
-import Plant from "../components/Plant"
+import PlantList from "../components/PlantList"
 
 const Explore = ({plants}) => {
     return (
-        <Plant plant={plants[0]}/>
+        <PlantList plantData={plants} page="Explore"/>
     )
 }
 
