@@ -1,7 +1,13 @@
 import React from "react";
+import "../App.css"
 
 // using table formatting
-export const PlantList = ({plantData, page}) => {
+export const PlantList = ({plantData, page, setPlantId, setPage}) => {
+
+  const onClickPlant = (id) => {
+    setPlantId(id)
+    setPage("Plant")
+  }
   
   return (
     <div class="list">
@@ -11,12 +17,10 @@ export const PlantList = ({plantData, page}) => {
           plantData.map((plantData) => {
             const {id, name, picture} = plantData
             return (
-              <ul>
-                <li key={id}>
-                  <img src={picture}></img>
-                  <h3>{name}</h3>
-                </li>
-              </ul>
+              <li key={id}>
+                <a onClick={() => onClickPlant(id)}><img src={picture}></img></a>
+                <h3>{name}</h3>
+              </li>
             );
         })
         ) : (

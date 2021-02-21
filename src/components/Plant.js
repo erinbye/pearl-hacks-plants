@@ -1,8 +1,11 @@
 import water from "../images/water-drop.jpg"
 import sun from "../images/sun.png"
 import fertilizer from "../images/fertilizer.png"
+import {plants} from "../data.json"
 
-const Plant = ({plant}) => {
+const Plant = ({plantId}) => {
+    const plant = plants.filter((plant) => plant.id === plantId)[0];
+    console.log(plant);
     return (
         <div>
             <h1>{plant.name}</h1>
