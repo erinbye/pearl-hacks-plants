@@ -1,7 +1,7 @@
 {
     "plants": [
         {
-            "id": 1,
+            "id": 0,
             "name": "Aluminum Plant",
             "level": "Easy",
             "water": "once every week",
@@ -11,7 +11,7 @@
             "owned": false
         },
         {
-          "id": 2,
+          "id": 1,
           "name": "Baby Rubber Plant",
           "level": "Easy",
           "water": "once every week",
@@ -21,17 +21,17 @@
           "owned": false
         },
         {
-          "id": 3,
+          "id": 2,
           "name": "Caladium Plant",
           "level": "Medium",
           "water": "once every week",
           "sunlight": "bright, indirect light",
           "fertilizer": "every two weeks",
           "picture": "https://www.guide-to-houseplants.com/images/caladium-leaves.jpg",
-          "owned": true
+          "owned": false
         },
         {
-          "id": 4,
+          "id": 3,
           "name": "Dragon Tree",
           "level": "Medium",
           "water": "once every week",
