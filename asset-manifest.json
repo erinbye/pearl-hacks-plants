@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/pearl-hacks-plants/static/css/main.221033dd.chunk.css",
-    "main.js": "/pearl-hacks-plants/static/js/main.3da57faf.chunk.js",
-    "main.js.map": "/pearl-hacks-plants/static/js/main.3da57faf.chunk.js.map",
-    "runtime-main.js": "/pearl-hacks-plants/static/js/runtime-main.fcff4656.js",
-    "runtime-main.js.map": "/pearl-hacks-plants/static/js/runtime-main.fcff4656.js.map",
-    "static/js/2.a038402b.chunk.js": "/pearl-hacks-plants/static/js/2.a038402b.chunk.js",
-    "static/js/2.a038402b.chunk.js.map": "/pearl-hacks-plants/static/js/2.a038402b.chunk.js.map",
-    "static/js/3.cfcebf18.chunk.js": "/pearl-hacks-plants/static/js/3.cfcebf18.chunk.js",
-    "static/js/3.cfcebf18.chunk.js.map": "/pearl-hacks-plants/static/js/3.cfcebf18.chunk.js.map",
+    "main.css": "/pearl-hacks-plants/static/css/main.e283e4d6.chunk.css",
+    "main.js": "/pearl-hacks-plants/static/js/main.cc10548a.chunk.js",
+    "main.js.map": "/pearl-hacks-plants/static/js/main.cc10548a.chunk.js.map",
+    "runtime-main.js": "/pearl-hacks-plants/static/js/runtime-main.45a71604.js",
+    "runtime-main.js.map": "/pearl-hacks-plants/static/js/runtime-main.45a71604.js.map",
+    "static/css/2.658248ec.chunk.css": "/pearl-hacks-plants/static/css/2.658248ec.chunk.css",
+    "static/js/2.ca8a32cd.chunk.js": "/pearl-hacks-plants/static/js/2.ca8a32cd.chunk.js",
+    "static/js/2.ca8a32cd.chunk.js.map": "/pearl-hacks-plants/static/js/2.ca8a32cd.chunk.js.map",
+    "static/js/3.28e9cb85.chunk.js": "/pearl-hacks-plants/static/js/3.28e9cb85.chunk.js",
+    "static/js/3.28e9cb85.chunk.js.map": "/pearl-hacks-plants/static/js/3.28e9cb85.chunk.js.map",
     "index.html": "/pearl-hacks-plants/index.html",
-    "static/css/main.221033dd.chunk.css.map": "/pearl-hacks-plants/static/css/main.221033dd.chunk.css.map",
-    "static/js/2.a038402b.chunk.js.LICENSE.txt": "/pearl-hacks-plants/static/js/2.a038402b.chunk.js.LICENSE.txt",
+    "static/css/2.658248ec.chunk.css.map": "/pearl-hacks-plants/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.e283e4d6.chunk.css.map": "/pearl-hacks-plants/static/css/main.e283e4d6.chunk.css.map",
+    "static/js/2.ca8a32cd.chunk.js.LICENSE.txt": "/pearl-hacks-plants/static/js/2.ca8a32cd.chunk.js.LICENSE.txt",
     "static/media/fertilizer.8fe5fea3.png": "/pearl-hacks-plants/static/media/fertilizer.8fe5fea3.png",
     "static/media/home.c5252edd.svg": "/pearl-hacks-plants/static/media/home.c5252edd.svg",
     "static/media/logo.a303aa12.svg": "/pearl-hacks-plants/static/media/logo.a303aa12.svg",
     "static/media/sun.7694306d.png": "/pearl-hacks-plants/static/media/sun.7694306d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fcff4656.js",
-    "static/js/2.a038402b.chunk.js",
-    "static/css/main.221033dd.chunk.css",
-    "static/js/main.3da57faf.chunk.js"
+    "static/js/runtime-main.45a71604.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.ca8a32cd.chunk.js",
+    "static/css/main.e283e4d6.chunk.css",
+    "static/js/main.cc10548a.chunk.js"
   ]
 }
