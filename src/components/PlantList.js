@@ -12,18 +12,13 @@ export const PlantList = () => {
       <ul>
         {plantData.length ? (
           plantData.map((plantData) => {
-            const {id, name, level, water, sunlight, fertilizer, picture} = plantData
+            const {id, name, picture} = plantData
             return (
               <ul>
-                <Plant
-                  key={id}
-                  name={name}
-                  level={level}
-                  water={water}
-                  sunlight={sunlight}
-                  fertilizer={fertilizer}
-                  picture={picture}
-                />
+                <li key={id}>
+                  <img src={picture}></img>
+                  <h3>{name}</h3>
+                </li>
               </ul>
             );
         })
