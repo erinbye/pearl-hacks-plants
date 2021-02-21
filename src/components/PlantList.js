@@ -1,13 +1,11 @@
 import React from "react";
 import { plants } from "../data.json"
-// using table formatting
-export const PlantList = () => {
-  const plantData = plants
-  console.log(plantData.plants)
+
+export const PlantList = ({plantData, page}) => {
   
   return (
     <div class="list">
-      <h1>Plants</h1>
+      <h1>{page}</h1>
       <ul>
         {plantData.length ? (
           plantData.map((plantData) => {
