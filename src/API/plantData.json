@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Sunflower",
+      "level": "medium",
+      "water": "every 2 weeks",
+      "sunlight": "full",
+      "fertilizer": "not required",
+      "picture": "https://bs.floristic.org/image/o/f8882205b54dee7e0522f2e8b6d1287d9705102c"
+    },
+    {
+      "id": 2,
+      "name": "Flower",
+      "level": "medium",
+      "water": "every 2 weeks",
+      "sunlight": "full",
+      "fertilizer": "not required",
+      "picture": "https://bs.floristic.org/image/o/f8882205b54dee7e0522f2e8b6d1287d9705102c"
+    }
+  ]
+}
